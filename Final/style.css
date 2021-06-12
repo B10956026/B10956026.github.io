@@ -40,9 +40,9 @@ html {
     text-align: center;
 }
 
-.logo {
-    height: 60%;
-    width: 60%;
+#logo {
+    height: 100%;
+    width: 80%;
 }
 
 #icon {
