@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Noto Sans JP';
+    background-color: #FFF59D;
+    background-image: url(../img/鳳荔.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom 5%;
+    background-size: 200px;
+}
+
+.navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 18px;
+}
+
+.navbar img {
+    width: 80%;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    background-image: url('../img/舊鐵橋.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron hr {
+    margin: 5%;
+    height: 0.25rem;
+    color: gba(255, 255, 255, 1);
+}
+
+.card {
+    margin: auto;
+}
+
+.card-text {
+    text-align: center;
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+}
+
+#icon {
+    height: 30%;
+    width: 30%;
+}
+
+.nav-pills>a,
+.nav-pills>a:focus {
+    color: black;
+    background-color: #F99F00;
+}
+
+.nav-pills>a:hover {
+    background-color: #F99F00;
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar-nav>.active>a {
+    background-color: #F99F00;
+    color: white;
+    font-weight: bolder;
+}
+
+.dropdown>a,
+.dropdown>a:focus {
+    color: black;
+    background-color: #F99F00;
+}
+
+.dropdown>a:hover {
+    background-color: #F99F00;
+    color: white;
+    font-weight: bolder;
+}
+
+.dropdown-menu>a,
+.dropdown-menu>a:focus {
+    color: black;
+    background-color: #F99F00;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #F99F00;
+    color: white;
+    font-weight: bolder;
+}
+
+.dropdown-menu {
+    background-color: #D4E157;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #4CAF50;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#indent1 {
+    text-indent: 1em;
+    font-weight: bolder;
+}
+
+#indent2 {
+    text-indent: 2em;
+    margin-left: 3em;
+}
+
+#indent3 {
+    text-indent: 2em;
+    margin-left: 1em;
+}
+
+#indent4 {
+    text-indent: 2em;
+    margin-left: 6em;
+}
+
+#indent5 {
+    text-indent: 2em;
+    margin-left: 5em;
+}
