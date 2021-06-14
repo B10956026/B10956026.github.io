@@ -223,32 +223,50 @@
     </table>
     &nbsp;
 
-    <div class="card-footer text-muted fixed-bottom" style="height: 40px; text-align: center; color: black; background: #D4E157; font-size: 16px; position: relative ; bottom: 0; width: 100%;">
-        <div>
-            <a href="https://dashu.kcg.gov.tw/Default.aspx" target="_blank" style="text-decoration:none;">大樹區公所</a> ｜
-            <script>
-                var today = new Date();
-                var Year = today.getFullYear();
-                var Month = today.getMonth() + 1;
-                var Day = today.getDate();
-                var Hours = today.getHours();
-                var Minutes = today.getMinutes();
+    <div class="card-footer text-muted fixed-bottom" style="height: 40px; text-align: center; color: black; background: #D4E157; font-size: 16px;">
+        <table style="width:100%; font-size: 12px; font-weight: bolder;">
+            <tr>
+                <td style="width:30%">
+                    <a href="https://dashu.kcg.gov.tw/Default.aspx" target="_blank" style="text-decoration:none;">大樹區公所</a>
+                </td>
+                <td style="width:10%">|</td>
+                <td style="width:60%">
+                    <div id="show_time">
+                        <script>
+                            setInterval("fun(show_time)", 1);
 
-                if (Month < 10) {
-                    Month = '0' + Month;
-                }
-                if (Day < 10) {
-                    Day = '0' + Day;
-                }
-                if (Hours < 10) {
-                    Hours = '0' + Hours;
-                }
-                if (Minutes < 10) {
-                    Minutes = '0' + Minutes;
-                }
-                document.write(Year + " / " + Month + " / " + Day + "&nbsp;&nbsp;" + Hours + ":" + Minutes);
-            </script>
-        </div>
+                            function fun(timeID) {
+                                var today = new Date();
+                                var Year = today.getFullYear();
+                                var Month = today.getMonth() + 1;
+                                var Day = today.getDate();
+                                var Week = today.getDay();
+                                var w = ' 星期' + '日一二三四五六'.charAt(new Date().getDay());
+                                var Hours = today.getHours();
+                                var Minutes = today.getMinutes();
+                                var Seconds = today.getSeconds();
+                                if (Month < 10) {
+                                    Month = '0' + Month;
+                                }
+                                if (Day < 10) {
+                                    Day = '0' + Day;
+                                }
+                                if (Hours < 10) {
+                                    Hours = '0' + Hours;
+                                }
+                                if (Minutes < 10) {
+                                    Minutes = '0' + Minutes;
+                                }
+                                if (Seconds < 10) {
+                                    Seconds = '0' + Seconds;
+                                }
+                                document.getElementById(timeID.id).innerHTML = Year + " / " + Month + " / " + Day + w + "&nbsp;&nbsp;" + Hours + ":" + Minutes + ":" + Seconds;
+                            }
+                        </script>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
 
 
