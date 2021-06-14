@@ -17,7 +17,7 @@
             background-image: url('../img/鳳荔.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position: right bottom 5%;
+            background-position: right bottom 8%;
             background-size: 200px;
         }
         
@@ -70,7 +70,7 @@
                     <li class="nav-item nav-pills" style="padding:2px;">
                         <a class="nav-link" href="交通位置.html">交通位置</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="padding:2px;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         機關簡介
                         </a>
@@ -80,7 +80,7 @@
                             <li><a class="dropdown-item" href="機關簡介_機關學校.html">機關學校</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="padding:2px;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         大樹特色
                         </a>
@@ -97,6 +97,17 @@
             </div>
         </div>
     </nav>
+
+    &nbsp;
+    <table>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <h1 style="font-weight: bolder; color: #4CAF50;">行政區域</h1>
+                &nbsp;
+            </td>
+        </tr>
+    </table>
 
     &nbsp;
     <table>
@@ -123,22 +134,39 @@
             </td>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
     </table>
-    <div class="card-footer text-muted" style="height: 40px; text-align: center; color: black; background: rgba(212,225,87, 0.6); font-size: 16px;">
+    &nbsp;
+
+    <div class="card-footer text-muted fixed-bottom" style="height: 40px; text-align: center; color: black; background: rgba(212,225,87, 0.6); font-size: 16px;">
         <div>
             <a href="https://dashu.kcg.gov.tw/Default.aspx" target="_blank" style="text-decoration:none;">大樹區公所</a> ｜
             <script>
                 var today = new Date();
-                var currentDateTime =
+                var Year = today.getFullYear();
+                var Month = today.getMonth() + 1;
+                var Day = today.getDate();
+                var Hours = today.getHours();
+                var Minutes = today.getMinutes();
 
-                    today.getFullYear() + ' / ' +
-
-                    (today.getMonth() + 1) + ' / ' +
-
-                    today.getDate() + '&nbsp;&nbsp;' +
-
-                    today.getHours() + ':' + today.getMinutes();
-                document.write(currentDateTime);
+                if (Month < 10) {
+                    Month = '0' + Month;
+                }
+                if (Day < 10) {
+                    Day = '0' + Day;
+                }
+                if (Hours < 10) {
+                    Hours = '0' + Hours;
+                }
+                if (Minutes < 10) {
+                    Minutes = '0' + Minutes;
+                }
+                document.write(Year + " / " + Month + " / " + Day + "&nbsp;&nbsp;" + Hours + ":" + Minutes);
             </script>
         </div>
     </div>

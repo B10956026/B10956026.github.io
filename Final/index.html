@@ -20,7 +20,7 @@
             background-image: url('img/鳳荔.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position: right bottom 5%;
+            background-position: right bottom 8%;
             background-size: 200px;
         }
         
@@ -162,7 +162,7 @@
 			<span class="navbar-toggler-icon"></span>
 		  </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                     <li class="nav-item nav-pills active" style="padding:2px;">
                         <a class="nav-link " aria-current="page" href="index.html">首頁</a>
                     </li>
@@ -175,27 +175,27 @@
                     <li class="nav-item nav-pills" style="padding:2px;">
                         <a class="nav-link" href="Web/交通位置.html">交通位置</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="padding:2px;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         機關簡介
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Web/機關簡介_區長簡介.html">區長簡介</a></li>
-                            <li><a class="dropdown-item" href="/Web/機關簡介_各里辦公室資訊.html">各里辦公室資訊</a></li>
-                            <li><a class="dropdown-item" href="/Web/機關簡介_機關學校.html">機關學校</a></li>
+                            <li><a class="dropdown-item" href="Web/機關簡介_區長簡介.html">區長簡介</a></li>
+                            <li><a class="dropdown-item" href="Web/機關簡介_各里辦公室資訊.html">各里辦公室資訊</a></li>
+                            <li><a class="dropdown-item" href="Web/機關簡介_機關學校.html">機關學校</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="padding:2px;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         大樹特色
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/Web/大樹特色_古蹟風貌.html">古蹟風貌</a></li>
-                            <li><a class="dropdown-item" href="/Web/大樹特色_精華景點.html">精華景點</a></li>
-                            <li><a class="dropdown-item" href="/Web/大樹特色_民俗節慶.html">民俗節慶</a></li>
-                            <li><a class="dropdown-item" href="/Web/大樹特色_水果特產.html">水果特產</a></li>
-                            <li><a class="dropdown-item" href="/Web/大樹特色_加工農產品.html">加工農產品</a></li>
-                            <li><a class="dropdown-item" href="/Web/大樹特色_大樹美食.html">大樹美食</a></li>
+                            <li><a class="dropdown-item" href="Web/大樹特色_古蹟風貌.html">古蹟風貌</a></li>
+                            <li><a class="dropdown-item" href="Web/大樹特色_精華景點.html">精華景點</a></li>
+                            <li><a class="dropdown-item" href="Web/大樹特色_民俗節慶.html">民俗節慶</a></li>
+                            <li><a class="dropdown-item" href="Web/大樹特色_水果特產.html">水果特產</a></li>
+                            <li><a class="dropdown-item" href="Web/大樹特色_加工農產品.html">加工農產品</a></li>
+                            <li><a class="dropdown-item" href="Web/大樹特色_大樹美食.html">大樹美食</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -226,22 +226,38 @@
             </td>
             <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
     </table>
-    <div class="card-footer text-muted" style="height: 40px; text-align: center; color: black; background: rgba(212,225,87, 0.6); font-size: 16px;">
+    &nbsp;
+    <div class="card-footer text-muted fixed-bottom" style="height: 40px; text-align: center; color: black; background: rgba(212,225,87, 0.6); font-size: 16px;">
         <div>
             <a href="https://dashu.kcg.gov.tw/Default.aspx" target="_blank" style="text-decoration:none;">大樹區公所</a> ｜
             <script>
                 var today = new Date();
-                var currentDateTime =
+                var Year = today.getFullYear();
+                var Month = today.getMonth() + 1;
+                var Day = today.getDate();
+                var Hours = today.getHours();
+                var Minutes = today.getMinutes();
 
-                    today.getFullYear() + ' / ' +
-
-                    (today.getMonth() + 1) + ' / ' +
-
-                    today.getDate() + '&nbsp;&nbsp;' +
-
-                    today.getHours() + ':' + today.getMinutes();
-                document.write(currentDateTime);
+                if (Month < 10) {
+                    Month = '0' + Month;
+                }
+                if (Day < 10) {
+                    Day = '0' + Day;
+                }
+                if (Hours < 10) {
+                    Hours = '0' + Hours;
+                }
+                if (Minutes < 10) {
+                    Minutes = '0' + Minutes;
+                }
+                document.write(Year + " / " + Month + " / " + Day + "&nbsp;&nbsp;" + Hours + ":" + Minutes);
             </script>
         </div>
     </div>

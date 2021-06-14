@@ -17,7 +17,7 @@
             background-image: url('../img/鳳荔.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-position: right bottom 5%;
+            background-position: right bottom 8%;
             background-size: 200px;
         }
         
@@ -70,7 +70,7 @@
                     <li class="nav-item nav-pills" style="padding:2px;">
                         <a class="nav-link" href="交通位置.html">交通位置</a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown active" style="padding:2px;">
                         <a class="nav-link dropdown-toggle" href="#" aria-current="page" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         機關簡介
                         </a>
@@ -80,7 +80,7 @@
                             <li><a class="dropdown-item" href="機關簡介_機關學校.html">機關學校</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="padding:2px;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         大樹特色
                         </a>
@@ -98,46 +98,77 @@
         </div>
     </nav>
 
-
     &nbsp;
-    <table style="width:100%;">
+    <table>
         <tr>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td style="text-align: center; width:30%;">
-                <img src="../img/陳振坤.jpg" alt="區長 陳振坤" style="text-align: center; width:70%; border:2px black solid;box-shadow:3px 3px 12px gray;">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <h1 style="font-weight: bolder; color: #4CAF50;">區長簡介</h1>
+                &nbsp;
             </td>
-            <td style="text-align: left; width:70%;">
-                <p style="color:#008000;"><strong>區長陳振坤簡介</p>
-                <p style="color:#FF8C00;"><strong>現任：</strong><span style="color: black; font-weight: normal;">高雄市大樹區公所區長</span></p>
-                <p style="color:#FF8C00;"><strong>學歷：</strong><span style="color: black; font-weight: normal;">國立高雄師範大學成人教育研究所組發班</span></p>
-                <p style="color:#FF8C00;"><strong>學歷：</strong>
-
-                    <ul style="color: black; font-weight: normal;">
-                        <li>高雄市政府運動發展局秘書室主任</li>
-                        <li>高雄市燕巢區公所區長</li>
-                        <li>高雄市橋頭區公所區長</li>
-                    </ul>
-
-                </p>
-            </td>
-            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
         </tr>
     </table>
-    <div class="card-footer text-muted" style="height: 40px; text-align: center; color: black; background: rgba(212,225,87, 0.6); font-size: 16px; position: absolute ; bottom: 0; width: 100%;">
+    <table style="width: 100%;">
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <article>
+                    <section>
+                        <div class="row featurette">
+                            <div class="col-md-6 order-md-1" style="text-align: center;">
+                                <img src="../img/陳振坤.jpg" class="featurette-image img-fluid mx-auto" alt="區長 陳振坤" style="width: 300px; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                            &nbsp;
+                            <div class="col-md-6 order-md-2">
+                                <p style="color:#008000;"><strong>區長陳振坤簡介</p>
+                                <p style="color:#FF8C00;"><strong>現任：</strong><span style="color: black; font-weight: normal;">高雄市大樹區公所區長</span></p>
+                                <p style="color:#FF8C00;"><strong>學歷：</strong><span style="color: black; font-weight: normal;">國立高雄師範大學成人教育研究所組發班</span></p>
+                                <p style="color:#FF8C00;"><strong>學歷：</strong>
+                                    <ul style="color: black; font-weight: normal;">
+                                        <li>高雄市政府運動發展局秘書室主任</li>
+                                        <li>高雄市燕巢區公所區長</li>
+                                        <li>高雄市橋頭區公所區長</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    &nbsp;
+
+    <div class="card-footer text-muted fixed-bottom" style="height: 40px; text-align: center; color: black; background: rgba(212,225,87, 0.6); font-size: 16px; position: absolute ; bottom: 0; width: 100%;">
         <div>
             <a href="https://dashu.kcg.gov.tw/Default.aspx" target="_blank" style="text-decoration:none;">大樹區公所</a> ｜
             <script>
                 var today = new Date();
-                var currentDateTime =
+                var Year = today.getFullYear();
+                var Month = today.getMonth() + 1;
+                var Day = today.getDate();
+                var Hours = today.getHours();
+                var Minutes = today.getMinutes();
 
-                    today.getFullYear() + ' / ' +
-
-                    (today.getMonth() + 1) + ' / ' +
-
-                    today.getDate() + '&nbsp;&nbsp;' +
-
-                    today.getHours() + ':' + today.getMinutes();
-                document.write(currentDateTime);
+                if (Month < 10) {
+                    Month = '0' + Month;
+                }
+                if (Day < 10) {
+                    Day = '0' + Day;
+                }
+                if (Hours < 10) {
+                    Hours = '0' + Hours;
+                }
+                if (Minutes < 10) {
+                    Minutes = '0' + Minutes;
+                }
+                document.write(Year + " / " + Month + " / " + Day + "&nbsp;&nbsp;" + Hours + ":" + Minutes);
             </script>
         </div>
     </div>
