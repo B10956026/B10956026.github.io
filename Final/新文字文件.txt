@@ -1,0 +1,166 @@
+    &nbsp;
+    <table>
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>
+                <h1 style="font-weight: bolder; color: #4CAF50;">精華景點</h1>
+                &nbsp;
+                <article>
+                    <section>
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading" id="indent1">佛光山</h2>
+                                <p id="indent6">
+                                    佛光山是南台灣最大的佛教道場，創辦人為星雲大師，他為了提倡『人間佛教』，於民國56年，帶領弟子披荊斬棘，一磚一瓦建立起「佛光山」，成為南台灣信眾最多、最負盛名的聖地。佛光山寺之開山四大宗旨：以教育培養人才、以文化弘揚佛教、以慈善福利社會、以共修淨化人心，無一不是以落實人間佛教為目標。
+                                </p>
+                                <p id="indent6">
+                                    由於長年來前往參拜者眾多，嚴重影響僧眾清修，遂於民國86年封山，謝絕觀光客進入，只有過年期間才短暫開放。後因佛光山為帶動南部地區繁榮和休閒文化的提升，於90年元旦重啟山門。佛光山除了主要寺院建築如大雄寶殿、朝山會館、雲居樓…等均極莊嚴優美外，最具特色的是大佛城，為佛光山的地標，四周有480尊小型金身阿隬陀佛塑像圍繞，景象莊嚴。此外，佛光緣文物展覽館典藏眾多古今各國文物及優秀藝術作品，且不定期舉辦藝文展覽，頗具欣賞價值。農曆春節到元宵期間，則是佛光山最熱鬧的季節，山區掛滿了花燈，入夜後一片燈海，還有花團錦簇的花藝展，更是美不勝收。
+                                </p>
+                                <p id="indent6">
+                                    走訪佛光山，無論什麼季節上山，不要錯過在大佛城和朝山會館之間的菩堤路。這條清幽小路兩旁遍植菩提樹，暑天遮去炎陽，帶來幾許清涼，入秋後山風落葉，樹下走過別有一番情趣。
+                                </p>
+                                <p id="indent6">
+                                    據佛光山的師父說，『菩堤樹葉走得快來得也快，每年農曆四月八日佛誕之前的一個月內，只見菩堤葉在一兩個星期之內盡褪去，轉眼到佛誕時，抽出的新芽己油綠茂密。榮枯之間如此俐落，不留多少讓人喟歎的時間。』
+                                </p>
+                            </div>
+                            <div class="col-md-5" style="text-align: center; justify-content: center;">
+                                <img src="../img/佛光山.jpg" class="featurette-image img-fluid mx-auto" alt="佛光山" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row featurette">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading" id="indent1">佛陀紀念館</h2>
+                                <p id="indent6">
+                                    提起宗教聖地，就不能不知道大樹區內名聲響噹噹的佛光山寺，建寺初期星雲大師在全台各地尋覓適當地點，要興建道場以弘法利生，歷經勘查多處地方，最後在大樹實地勘查，星雲大師卻覺得這塊山坡地格局方正非常適合，他帶著弟子及信眾們在荒煙蔓草間上行到高處，停下來遠眺高屏溪及遠處的高山，星雲大師覺得這正是好修行、弘法的地點，就決定在此興建道場，這就是舉世聞名的佛光山。
+                                </p>
+                                <p id="indent7" style="font-weight: bolder;">
+                                    佛陀紀念館啟建
+                                </p>
+                                <p id="indent6">
+                                    星雲大師說，在接受貢噶多傑仁波切捐贈「佛牙舍利」的當下，就決定要在臺灣覓地建塔供奉，讓全世界的有緣人都有機會禮拜瞻仰。建館過程幾經周折，最後選定佛光山隔壁的擎天神公司用地，在張姚宏影、曹仲植、潘孝銳等人捐資購地，2003年元月舉行「佛陀紀念館安基典禮」，目前已接近完工階段。 佛陀紀念館佔地100多公頃，正館佔地4000坪為地下一層、地上五層的建築，前方有象徵「八正道」的寶塔八座，以及四座代表「四聖諦」的菩提伽耶正覺塔，地下設有地宮48間，收藏各種與佛陀有關的聖物，如恆河金沙、轉法輪塔石塊、涅槃塔的五穀磚等，未來渴望也成為大樹區的新地標。
+                                </p>
+                                <p id="indent6">
+                                    佛陀紀念館業已興建完成並於100年12月25日舉辦落成大典
+                                </p>
+                            </div>
+                            <div class="col-md-5 order-md-1" style="text-align: center;">
+                                <img src="../img/佛陀紀念館.jpg" class="featurette-image img-fluid mx-auto" alt="佛陀紀念館" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading" id="indent1">三和瓦窯</h2>
+                                <p id="indent6">
+                                    經過高屏舊鐵橋，沿著台29線續向北行，隨即可見三座焦黑醒目的窯“蹲踞”在路旁。『三和瓦窯』的招牌上寫著『古蹟別墅瓦磚、日本文化瓦、陶藝品』，這裡，就是已被列為歷史建築、國內難得一見、南台灣僅存的紅瓦窯。
+                                </p>
+                                <p id="indent6">
+                                    台灣傳統民間建築的屋頂以紅瓦為主要的材料，早期均由中國海運來台。直到清領末期，人口激增才有瓦窯的設立。據大樹文史協會羅景川老師的調查，南部的瓦窯分佈在台南市六甲二鎮、高雄市旗山區溪洲及大樹區大樹、竹寮兩里。大樹區部份在巔峰時期曾達二十多家，產品銷遍高雄、澎湖、屏東、台南四縣市。因建築材料的革新，目前僅剩高屏舊鐵橋北方的三和瓦窯三座窯。由於三和瓦窯東臨下淡水溪，汲水方便、土質細緻、沒有雜質，濕度黏度洽到好處，燒出的磚瓦不過水，可以燒薄瓦、油面磚、厚尺仔等此較高級的建材。
+                                </p>
+                                <p id="indent6">
+                                    三和瓦窯到今天燒磚瓦還是用最古老的窯燒，以木材、稻穀燃燒，窯溫平均在一千度以上，陶土做好的生胚入窯，得夜以繼日連續悶燒八十天，然後拿出來「凍露水」冷卻三十天，這樣一百三十天的手續才能燒磚瓦。其生產過程多靠人工，從印瓦、疊窯、到燒窯等製作過程繁鎖細緻，然而，時代變遷，建築方式改變，大樹區的紅瓦窯也逐漸沒落，如今所生產的磚瓦多供作傳統式建材與古蹟修繕之用。
+                                </p>
+                                <p id="indent6">
+                                    三和瓦窯目前除了生產各種磚瓦，也燒製各種器皿，在人們還沒大量使用錫鼎和塑膠用品前，三和瓦窯也製造各種鍋碗瓢盆、瓶缽桶罐。著名陶藝大師林昭地便與三和瓦窯有密切的合作關係，燒窯師傅們也已逐漸轉型為陶藝創作，積極發展新一代的文化產業。
+                                </p>
+                            </div>
+                            <div class="col-md-5" style="text-align: center;">
+                                <img src="../img/三和瓦窯.jpg" class="featurette-image img-fluid mx-auto" alt="三和瓦窯" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row featurette">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading" id="indent1">南二高斜張橋</h2>
+                                <p id="indent6">
+                                    斜張橋是橫跨高屏溪的南二高橋樑，橋長2617公尺，為聯絡高雄市大樹區與屏東縣重要的交通要道。由於橋址所在之高屏溪兩岸地形高差達六十公尺，橋梁造型配合地勢變化以增添現地景觀及經濟性、施工性等考量，西端主橋採大跨徑單塔不對稱式斜張橋，長510公尺，塔高183.5 公尺，橋面距地面最高約達50公尺，再由西至東以漸變跨徑之箱型樑結構，分段採大跨徑之懸臂工法橋及中等跨徑之支撐先進工法橋設計， 深具結構力學與美學特色，完成後為一極具視覺景觀之結構體，且為國內首座斜張式橋樑，也是亞洲最長的單橋塔斜橋。 鋼樑的斷面全都是用高空的焊接技術，不僅施工標準高，更是工程設計的嚴峻挑戰。
+                                </p>
+                                <p id="indent6">
+                                    每當夜晚來臨時，在燈光的投射之下，猶如一艘升帆待發的大船， 點綴著南台灣的夜晚， 成為本區最具代表性的地標之一。 橋下經常出現專程來欣賞美麗夜景的人潮，鄰近的活魚餐廳更成為南台灣知名的觀光美食。
+                                </p>
+                            </div>
+                            <div class="col-md-5 order-md-1" style="text-align: center;">
+                                <img src="../img/斜張橋.jpg" class="featurette-image img-fluid mx-auto" alt="斜張橋" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading" id="indent1">姑山倉庫園區</h2>
+                                <p id="indent6">
+                                    「姑山倉庫產業文化休閒園區」內設有咖啡簡餐區、農特產販賣區。現有針對大樹區特產研發鳳梨粉粿冰、蜂蜜、香草等加工品的販售；大家期待已久的「玉荷包荔枝蒟蒻冰棒」，已於93年5月份粉墨登場，民眾可到姑山倉庫品嚐全台獨一無二口味的「玉荷包蒟蒻冰棒」。
+                                </p>
+                                <p id="indent6">
+                                    當您到大樹旅遊時，可以先到姑山倉庫租輛自行車，沿著高屏溪美麗河岸或小葉欖仁樹成蔭的綠色廊道，來趟愜意的鐵馬風情遊；也可在姑山倉庫體驗農村各種情境，更別忘了買點大樹特產的「伴手」回家與好朋友分享。
+                                </p>
+                            </div>
+                            <div class="col-md-5" style="text-align: center; vertical-align : middle;">
+                                <img src="../img/姑山倉庫園區.jpg" class="featurette-image img-fluid mx-auto" alt="姑山倉庫園區" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row featurette">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading" id="indent1">舊鐵橋濕地生態公園</h2>
+                                <p id="indent6">
+                                    沿著狹長高屏溪而建的舊鐵橋溼地生態公園，從高屏大橋至舊鐵橋以北高灘地，面積廣達120公頃。規劃有戶外廣場、劇場、人工溼地、親水空間、景觀綠帶、自行車道等設施，是高雄縣政府重塑高屏溪沿岸景觀意象，以及維護河濱生態的一項重要工程，竣工後是大高雄地區最佳的自然生態親水公園。
+                                </p>
+                                <p id="indent6">
+                                    舊鐵橋下的人工溼地是高屏溪河畔最佳的賞景點，數漥以自然生態工法營造的水塘，豐富的動、植物生態是親子巧扮觀察家的好地點。很久沒運動嗎？自行車道將是您的不二選擇，沿途無盡的綠意，保證讓您心曠神怡。
+                                </p>
+                                <p id="indent7" style="font-weight: bolder;">
+                                    舊鐵橋濕地生態公園 浴水重生 重新啟用
+                                </p>
+                                <p id="indent6">
+                                    高屏溪自然生態文化園區98年遭受八八風災侵襲，園區受到大量淤泥及漂流木覆蓋、淹沒，受創嚴重，經當時鄉公所積極向縣府及上級機關爭取經費補助，歷經半年多在政府與民間的通力合作下，已恢復往日生機，舊鐵橋溼地公園於99年3月8日舉行「浴水重生」重新啟用典禮，由縣長楊秋興、鄉長曾英志與貴賓打開睽違已久的溼地出水閘門，啟動生態池的水質淨化機能，並與99位孩童以串連傳遞樹苗的方式，在舊鐵橋溼地周邊親手栽植，象徵環境保育的傳承，生生不息、久久不滅。又於同年11月20日舉行河川日活動，由舊鐵橋河川巡守隊與在地團體發表守護高屏溪宣言，另外並邀請99位代表性人士寫下河川願景，放入時空膠囊中，相約10年後再取出。
+                                    溼地自然生態文化園區生態復育效果佳，成為高屏地區最佳戶外教學與生態旅遊的地點。
+                                </p>
+                                <p id="indent6">
+                                    喜歡攝影的朋友則別錯過高屏溪的傍晚時分，從北方緩緩向西的夕陽，將先輝映在斜張橋前、新鐵道與舊鐵橋的左側，從這遠眺高屏溪河床，無論是隨風搖曳的蘆葦草叢，或是水塘裡倒映的霞光，都是值得您捕捉的鏡頭；要是微霞與浮雲的美拍的不夠，那就隨著小徑步上鐵橋，靜待霞光在西邊透出萬丈光芒，然後截下高屏溪畔闐暗前最美的圖像。 清風徐徐、蟲鳴鳥唱的舊鐵橋濕地生態公園，無論清晨、午時、傍晚都有她令人著迷的美麗臉龐，光說不準，請您親自前往，印證她不矯作的自然美吧！
+                                </p>
+                            </div>
+                            <div class="col-md-5 order-md-1" style="text-align: center;">
+                                <img src="../img/舊鐵橋濕地生態公園.jpg" class="featurette-image img-fluid mx-auto" alt="舊鐵橋濕地生態公園" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row featurette">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading" id="indent1">義大世界城</h2>
+                                <p id="indent7" style="font-weight: bolder;">
+                                    帶動大樹休閒國際化《義大世界》
+                                </p>
+                                <p id="indent7" style="font-weight: bolder;">
+                                    躍升國際舞台
+                                </p>
+                                <p id="indent6">
+                                    在以農業為主體的大樹區內，進駐了一個大型的休閒產業集團，成為鄰近城市渡假的新選擇，不僅僅含有全台最大的購物空間，還有遊樂世界及國際水準的五星級住宿飯店，融合了休閒、度假、養生、藝術、文化、購物、地產等八大主題內容的多元機能渡假園區，區域內有義守大學、義大國際中小學、 高雄義大皇冠假日酒店、義大遊樂世界、義大世界購物廣場與義大天悅飯店，在今年度將陸續開幕，隨著開幕引進許多的外地觀光客進入大樹區，讓大樹區的休閒觀光發展又邁向了新紀元，躍升至國際舞台。
+                                </p>
+                                <p id="indent7" style="font-weight: bolder;">
+                                    在地結合新契機
+                                </p>
+                                <p id="indent6">
+                                    義大世界的進駐開啟了全新的休閒觀光紀元，除本身園區強力的休閒渡假功能外，與大樹區在地的結合更是一個全新的契機，義大內五星級的餐飲服務可與大樹區的特產「鳳梨」、「荔枝」、「粿仔條」做結合，成為一個企業與地方結合的良好範例，提供最獨一無二的服務；而於觀光層面更是能夠涵納進「大樹區文化生活圈」之概念中，且義大世界鄰近高鐵左營站只需18分鐘，至小港機場也只需25分鐘，交通網路的活絡也將是未來發展能夠規劃的方向之一，便於帶動區內的深度旅遊，未來在整體休閒旅遊中前景看好。
+                                </p>
+                                <p id="indent7" style="font-weight: bolder;">
+                                    更多介紹:<a href="http://www.edathemepark.com.tw/Website/index.aspx" target="_blank" style="text-decoration:none;">http://www.edathemepark.com.tw/Website/index.aspx</a>
+                            	</p>
+			    </div>
+                            <div class="col-md-5" style="text-align: center; vertical-align : middle;">
+                                <img src="../img/義大世界城.jpg" class="featurette-image img-fluid mx-auto" alt="義大世界城" style="width: 90%; height: 300px; border:3px black solid;box-shadow:3px 3px 12px gray;">
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+    &nbsp;
